@@ -8,14 +8,22 @@
     tools:context="com.example.apprenti.premierequetestudio.MainActivity">
 
     <TextView
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="@color/textnoir"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         android:text="@string/title" />
 
     <CheckBox
         android:id="@+id/checkbox"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="@string/checkbox"/>
 
     <EditText
