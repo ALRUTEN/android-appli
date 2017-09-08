@@ -13,21 +13,28 @@
         android:text="@string/title" />
 
     <CheckBox
+        android:id="@+id/checkbox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/checkbox"/>
 
     <EditText
+        android:id="@+id/first_name"
+        android:enabled="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/first_name"/>
 
     <EditText
+        android:id="@+id/last_name"
+        android:enabled="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/last_name"/>
 
     <Button
+        android:id="@+id/button"
+        android:enabled="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/validate"/>
